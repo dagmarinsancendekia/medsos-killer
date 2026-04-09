@@ -14,15 +14,6 @@ echo Membuat backup hosts original...
 set "target_hosts=C:\Windows\System32\drivers\etc\hosts"
 set "backup_hosts=%target_hosts%.backup"
 
-REM Backup if exists
-if exist "%target_hosts%" (
-    copy "%target_hosts%" "%backup_hosts%" >nul
-    echo Backup dibuat: %backup_hosts%
-) else (
-    echo File hosts tidak ditemukan!
-    pause
-    exit /b 1
-)
 
 echo Menyalin hosts blocker...
 copy "%~dp0hosts" "%target_hosts%" >nul
@@ -37,6 +28,6 @@ ipconfig /flushdns >nul
 
 echo [SUKSES] Medsos diblokir! Restart browser atau komputer untuk efek penuh.
 echo Backup tersimpan di %backup_hosts%.
-echo Jalankan hosts_restore.bat untuk mengembalikan.
+echo Jalankan penawar.bat untuk mengembalikan.
 pause
 exit /b 0

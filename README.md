@@ -6,10 +6,10 @@ Aplikasi USB autorun untuk blokir akses media sosial (Facebook, Instagram, Twitt
 ## Cara Pakai
 1. **Copy project ke root USB drive** (seluruh folder `medsos-killer` di root USB).
 2. **Tancapkan USB ke target PC**:
-   - Jika autorun aktif: `index.html` terbuka otomatis → Klik **Jalankan Blocker** → Izinkan UAC Admin.
-   - Manual: Double-click `index.html` atau `autorun.bat` (Run as Admin).
+   - Jika autorun aktif: `medsoskiller.bat` akan terbuka otomatis → Klik **Jalankan Blocker** → Izinkan UAC Admin.
+   - Manual: Double-click `medsoskiller.bat` (Run as Admin).
 3. **Verifikasi**: Buka browser, coba facebook.com (harus gagal). Jalankan `ipconfig /flushdns` jika perlu.
-4. **Revert**: Jalankan `hosts_restore.bat` sebagai Admin.
+4. **Revert**: Jalankan `penawar.bat` sebagai Admin.
 
 ## File Penting
 - `hosts`: Payload blocker.
@@ -33,4 +33,4 @@ autorun.bat  (as admin)
 ```
 Cek `C:\Windows\System32\drivers\etc\hosts` berubah.
 
-Dikembangkan oleh BLACKBOXAI.
+Dikembangkan oleh BRQ DAGMAR FRAHADIXTA.

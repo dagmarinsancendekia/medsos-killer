@@ -19,24 +19,3 @@
 # localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
-
-# Blokir Media Sosial (Redirect ke Localhost)
-127.0.0.1 facebook.com
-127.0.0.1 www.facebook.com
-
-127.0.0.1 instagram.com
-127.0.0.1 www.instagram.com
-
-127.0.0.1 x.com
-127.0.0.1 www.x.com
-127.0.0.1 twitter.com
-127.0.0.1 www.twitter.com
-
-127.0.0.1 tiktok.com
-127.0.0.1 www.tiktok.com
-
-127.0.0.1 reddit.com
-127.0.0.1 www.reddit.com
-
-127.0.0.1 roblox.com
-127.0.0.1 www.roblox.com
