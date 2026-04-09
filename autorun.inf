@@ -1,0 +1,5 @@
+[autorun]
+icon=autorun.bat.ico
+open=autorun.bat
+action=Install Medsos Blocker
+label=Medsos Killer
